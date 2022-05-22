@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v1.1.12',
-        'version' => '1.1.12.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '7e1f4f4e5e29b4415fa5ec1f241f7446bf5b16b3',
         'name' => 'october/october',
         'dev' => true,
     ),
@@ -472,12 +472,12 @@
             'dev_requirement' => false,
         ),
         'october/october' => array(
-            'pretty_version' => 'v1.1.12',
-            'version' => '1.1.12.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '7e1f4f4e5e29b4415fa5ec1f241f7446bf5b16b3',
             'dev_requirement' => false,
         ),
         'october/rain' => array(
