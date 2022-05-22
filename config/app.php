@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'debug' => true,
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -41,7 +41,7 @@ return [
     |
     */
 
-    'url' => 'https://october.ddev.site',
+    'url' => env('APP_URL', 'https://october.ddev.site'),
 
     /*
     |--------------------------------------------------------------------------
@@ -137,7 +137,7 @@ return [
     |
     */
 
-    'key' => 'oQjIlqJ8TirOiDSp1mSzOlL536DFGsyC',
+    'key' => env('APP_KEY', ''),
 
     'cipher' => 'AES-256-CBC',
 
