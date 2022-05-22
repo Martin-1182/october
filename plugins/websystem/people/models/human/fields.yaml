@@ -1,0 +1,22 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    name:
+        label: Name
+    email:
+        label: Email
+    phone:
+        label: Phone
+    address:
+        label: Address
+    city:
+        label: City
+    state:
+        label: State
+    zip:
+        label: Zip

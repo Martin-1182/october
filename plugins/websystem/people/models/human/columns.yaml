@@ -1,0 +1,22 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    name:
+        label: Name
+    email:
+        Label: Email
+    phone:
+        label: Phone
+    address:
+        label: Address
+    city:
+        label: City
+    state:
+        label: State
+    zip:
+        label: Zip

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Human
+
+# Model Form Field configuration
+form: $/websystem/people/models/human/fields.yaml
+
+# Model Class name
+modelClass: Websystem\People\Models\Human
+
+# Default redirect location
+defaultRedirect: websystem/people/humans
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: websystem/people/humans/update/:id
+    redirectClose: websystem/people/humans
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: websystem/people/humans
+    redirectClose: websystem/people/humans
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

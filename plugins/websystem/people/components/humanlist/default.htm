@@ -1,0 +1,23 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            <i class="icon-users">
+                People            
+            </i>
+        </h3>
+    </div>
+    <div class="panel-body">
+        <ul class="list-group">
+            {% for human in __SELF__.humans %}
+                <li class="list-group-item">
+                    <a href="{{ 'human'|page({id:human.id}) }}">
+                        {{ human.name }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+
+
